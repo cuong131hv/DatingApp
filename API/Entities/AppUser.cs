@@ -10,6 +10,10 @@ namespace API.Entities
 
 		public string UserName { get; set; }
 
-		
+		//hashpassword return byte
+		public byte[] PasswordHash { get; set; }
+
+		public byte[] PasswordSalt { get; set; }
+
 	}
 }
